@@ -1,0 +1,18 @@
+{
+    "client": {
+      "basePath": "/",
+      "html5Mode": true,
+      "routes": [
+        {
+          "path": "/",
+          "templateUrl": "home.html",
+          "controller": "HomeCtrl"
+        },
+        {
+          "path": "/department/:id",
+          "templateUrl": "src/department.controller/department.controller.html",
+          "controller": "departmentController"
+        }
+      ]
+    }
+  }

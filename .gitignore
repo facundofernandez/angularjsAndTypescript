@@ -1,0 +1,4 @@
+node_modules
+public/dist/*
+*-lock.json
+.vscode
